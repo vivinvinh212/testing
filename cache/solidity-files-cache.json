@@ -1,0 +1,88 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/vivinvinh212/thoon/src/contracts/Presale.sol": {
+      "lastModificationDate": 1712024007865,
+      "contentHash": "7df5d7fb1347f5edddb95300cd3749c0",
+      "sourceName": "src/contracts/Presale.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IERC20",
+        "Presale"
+      ]
+    },
+    "/home/vivinvinh212/thoon/src/contracts/token.sol": {
+      "lastModificationDate": 1712025893190,
+      "contentHash": "270079c24b759acedd77ebd7b6a245fc",
+      "sourceName": "src/contracts/token.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.0",
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Context",
+        "ERC20",
+        "IERC20",
+        "IERC20Metadata",
+        "Ownable",
+        "Token"
+      ]
+    }
+  }
+}
